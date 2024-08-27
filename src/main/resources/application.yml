@@ -1,0 +1,14 @@
+spring:
+    application:
+        name: terralogic-security
+    h2:
+        console:
+            enabled: true
+
+server:
+    port: 8082
+
+auth:
+    jwt:
+        secret-key: IQ09J2BdDuc3lSKUJlQAp8uhCXRq+s2EucsBOb9rfjo=
+        expiration-time: 1800000
